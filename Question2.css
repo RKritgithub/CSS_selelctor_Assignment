@@ -1,0 +1,21 @@
+
+/* Descendant combinator selector to remove list-style-type and text underlining  */
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/* /* Child combinator to display the menu list items inline  */
+nav>ul>li {
+    display: inline;
+    margin-right: 15px;
+   
+}
+
+/*Adjacent sibling combinator selector to apply margin between menu list items */
+nav ul li+li {
+    margin-left: 10px;
+}

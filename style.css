@@ -1,0 +1,42 @@
+
+nav a {
+    color: red;
+}
+
+nav h2:first-of-type {
+    color: black;
+}
+
+nav p:first-of-type {
+    color: red;
+}
+
+
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+a[class="active"] {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a[target="_self"] {
+    background-color: yellow;
+}
+
+nav p:last-of-type::after {
+    content: "...";
+}
+
+nav ul li::marker {
+    color: blue;
+}
+
+/* Target the first letter of the second <p> tag, change color to red & increase font size */
+nav p:nth-of-type(2)::first-letter {
+    color: red;
+    font-size: 30px;
+}

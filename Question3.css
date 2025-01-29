@@ -1,0 +1,9 @@
+h1::before {
+    content: "Pseudo-element-selector: ";
+    color: blue;
+}
+
+h1::after {
+    content: " :Random words after";
+    color: red;
+}
